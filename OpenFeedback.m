@@ -21,7 +21,7 @@
 		NSBundle *framework = [NSBundle bundleWithPath:frameworkPath];
 		path = [framework pathForResource:@"OpenFeedback" ofType:@"nib"];
 	}	
-	windowController = [[OFController alloc] initWithWindowNibName:@"OpenFeedback"];
+	windowController = [[OpenFeedbackController alloc] initWithWindowNibName:@"OpenFeedback"];
 }
 
 - (IBAction)presentFeedbackPanelForSupport:(id)sender

@@ -7,10 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "OFController.h"
+#import "OpenFeedbackController.h"
 
 @interface OpenFeedback : NSObject {
-	OFController *windowController;
+	OpenFeedbackController *windowController;
 }
 
 - (IBAction)presentFeedbackPanelForSupport:(id)sender;
